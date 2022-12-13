@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet"> 
+	<title> Paytm: Secure and Fast UPI Payment App</title>
+    <style type="text/css">
+        html,body{
+            height: 100%;
+            width: 100%;
+         }
+         *{
+            margin: 0px;
+         }
+        .heading{
+            width: 100%;
+            height: 10%;    
+            margin-left: -0.8%;
+            margin-top: -0.8%;
+            background-color: white;
+        }
+        .image{
+            background-image: url(https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png);
+            height: 80%;
+            width: 14%;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-left: 5%;
+            display: inline-block;
+            margin-top: 1%;
+        }
+        .pfc{
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            display: inline;
+            padding: 0.99%;
+            font-size: 88%;
+            margin: 0.4%;
+            font-weight: bold;
+            border-radius: 5px;
+            font-family: Inter,sans-serif;
+            margin-left: 12%;
+        }
+        .pfc:hover{
+            background-color: rgba(235, 235, 235, 1);
+            cursor: pointer;
+        }
+        .pfb{
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            display: inline;
+            padding: 0.99%;
+            font-size: 88%;
+            margin: 0.4%;
+            font-weight: bold;
+            border-radius: 5px;
+            font-family: Inter,sans-serif;
+        }
+        .pfb:hover{
+            background-color: rgba(240, 240, 240, 1);
+            cursor: pointer;
+        }
+        .ir{
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            display: inline;
+            padding: 0.99%;
+            font-size: 88%;
+            margin: 0.4%;
+            font-weight: bold;
+            border-radius: 5px;
+            font-family: Inter,sans-serif;
+        }
+        .ir:hover{
+            background-color: rgba(240, 240, 240, 1);
+            cursor: pointer;
+        }
+        .c{
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            display: inline;
+            padding: 0.99%;
+            font-size: 88%;
+            margin: 0.4%;
+            font-weight: bold;
+            border-radius: 5px;
+            font-family: Inter,sans-serif;
+        }
+        .c:hover{
+            background-color: rgba(240, 240, 240, 1);
+            cursor: pointer;
+        }
+        .carrer{
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            display: inline;
+            padding: 0.99%;
+            font-size: 88%;
+            margin: 0.4%;
+            font-weight: bold;
+            border-radius: 5px;
+            font-family: Inter,sans-serif;
+        }
+        .carrer:hover{
+            background-color: rgba(240, 240, 240, 1);
+            cursor: pointer;
+        }
+        .signin{
+            text-decoration: none;
+            width: 6%;
+            background-color: #00baf2;
+            display: inline-block;
+            padding-top: 1.2%;
+            padding: 0.99%;
+            font-size: 88%;
+            margin: 0.4%;
+            font-weight: bold;
+            border-radius: 20px;
+            background-image: url(https://assetscdn1.paytm.com/frontendcommonweb/9fd9626b.svg);
+            background-repeat: no-repeat;
+            background-size: 31%;
+            font-family: Inter,sans-serif;
+            width: 6%;
+            height: 10%;
+
+        }
+        .pf{
+            width: 100%;
+            height: 7%;
+            background-image: linear-gradient(rgba(240, 240, 240, 1), white);
+            text-align: center;
+            margin-top: 2%;
+            padding: 1%;
+            font-size: 96%;
+            font-weight: bold;
+            font-family: Inter,sans-serif;
+        }
+        .img{
+            background-image: url(https://assetscdn1.paytm.com/images/catalog/view/310944/1654517453942.png);
+            background-repeat: no-repeat;
+            height: 20%;
+            background-size: 12%;
+            margin-left: 17%;
+            margin-top: 3%;
+        }
+        .middle{
+            height: 60%;
+            width: 50%;
+            justify-content: center;
+            text-align: center;
+        }
+        .text{
+            font-weight: 700;
+            font-size: 280%;
+            font-family: Inter,sans-serif;
+            margin-left: -3%;
+        }
+        .text1{
+            font-weight: 700;
+            font-size: 280%;
+            margin-top: -5%;
+            margin-left: -17%;
+            font-family: Inter,sans-serif;
+            margin-top: 1%;
+        }
+        .photo{
+            background-image: url(https://assetscdn1.paytm.com/images/catalog/view_item/850762/1656568118664.png);
+            background-size: 73%;
+            background-repeat: no-repeat;
+            height: 60%;
+            width: 50%;
+            margin-left: 5%;
+        }
+        .middlemain{
+            width: 115%;
+            height: 138%;
+            background-color: white;
+            display: flex;
+            margin-bottom: -20%;
+        }
+        .text2{
+            font-weight: 600;
+            font-family: Inter,sans-serif;
+            margin-top: 2%;
+        }
+        .text3{
+            font-weight: 600;
+            font-family: Inter,sans-serif;
+            margin-top: -1.5%;
+            text-align: left;
+            margin-left: 18%;
+            margin-top: 1%;
+        }
+        .log{
+            color: white;
+            text-align: left;
+            display: flex;
+        }
+        .signin:hover{
+            background-color: darkblue;
+            background-image: url(https://assetscdn1.paytm.com/frontendcommonweb/9a65db05.svg);
+            cursor: pointer;
+        }
+        .stcolumn{
+            background-color: #00baf2;
+            height: 55%;
+            width: 100%;
+            display: block;
+        }
+        .ndcolumn{
+            background-color: rgba(38, 38, 222, 1);
+            height: 55%;
+            width: 100%;
+            display: block;
+        }
+        .downloadpaytmapp{
+            background-color: black;
+            border-radius: 20px;
+            font-family: Inter,sans-serif;
+            display: inline-block;
+            color: white;
+            padding: 1.3%;
+            font-weight: bold;
+            font-size: 13px;
+            cursor: pointer;
+            width: 30%;
+            text-align: left;
+            padding-left: 1.5%;
+            margin-top: 5%;
+            margin-left: -32%;
+        }
+        .apple{
+            background-image: url(https://1000logos.net/wp-content/uploads/2016/10/apple-emblem.jpg);
+            padding: 0.5%;
+            border-radius: 50%;
+            background-size: 20%;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        .sentence1{
+            font-family: Inter, sans-serif;
+            display: inline;
+        }
+        .head1{
+            font-size: 34px;
+            color: #ffffff;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 5%;
+            margin-left: 7%;
+            font-family: Inter,sans-serif;
+            margin-bottom: 2%;
+        }
+        .head2{
+            font-size: 34px;
+            color: #ffffff;
+            font-weight: 600;
+            margin-top: 5%;
+            margin-left: 7%;
+            font-family: Inter,sans-serif;
+            display: inline-block;
+            margin-bottom: 2%;
+        }
+        .innerdiv1{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 32px;
+            flex-direction: column;
+            margin-left: 7%;
+            border-radius: 5.13px;
+        }
+        .innerdiv2{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 32px;
+            flex-direction: column;
+            margin-left: -1%;
+            border-radius: 5.13px
+        }
+        .innerdiv3{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 32px;
+            flex-direction: column;
+            margin-left: -1%;
+            border-radius: 5.13px
+        }
+        .innerdiv4{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 32px;
+            flex-direction: column;
+            margin-left: -1%;
+            border-radius: 5.13px
+        }
+        .innerdiv5{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 32px;
+            flex-direction: column;
+            margin-left: -1%;
+            border-radius: 5.13px
+        }
+        .innerdiv6{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 32px;
+            flex-direction: column;
+            margin-left: -1%;
+            border-radius: 5.13px
+        }
+        .innerdiv7{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 32px;
+            flex-direction: column;
+            margin-left: -2%;
+            border-radius: 5.13px
+        }
+        .stcolm{
+            background-color: transparent;
+            width: 100%;
+            height: 70%;
+            display: flex;
+        }
+        .div1img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .div2img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .div1para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .div1para1st{
+            font-family: Inter,sans-serif;
+            font-size: 12px;
+            margin-bottom: -4px;
+            margin-bottom: 1%; 
+            margin-top: -40px;
+        }
+        .div2para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .div2para1st{
+            font-family: Inter,sans-serif;
+            font-size: 12px;
+            /*margin-bottom: px;*/
+            margin-bottom: 1%;
+            margin-top: -40px;
+        }
+        .div3img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .div3para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .div3para1st{
+            font-family: Inter,sans-serif;
+            font-size: 12px;
+            margin-bottom: -4px;
+            margin-bottom: 1%; 
+            margin-top: -40px;
+        }
+        .div4img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: -1%;
+        }
+        .div4para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .div4para1st{
+            font-family: Inter,sans-serif;
+            font-size: 12px;
+            /*margin-bottom: -4px;*/
+            margin-bottom: 1%;
+            margin-top: -30px; 
+        }
+        .div5img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .div5para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+        .div5para1st{
+            font-family: Inter,sans-serif;
+            font-size: 12px;
+            margin-bottom: -4px;
+            margin-top: -40px;
+        }
+        .div6img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .div6para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .div6para1st{
+            font-family: Inter,sans-serif;
+            font-size: 12px;
+            margin-bottom: -4px;
+            margin-bottom: 1%;
+            margin-top: -40px;
+        }
+        .div7img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .div7para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .div7para1st{
+            font-family: Inter,sans-serif;
+            font-size: 12px;
+            margin-bottom: -4px;
+            font-weight: bold;
+            margin-bottom: 1%;
+            margin-top: -40px;
+        }
+        .ndinnerdiv1{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 39px;
+            flex-direction: column;
+            margin-left: -2%;
+            border-radius: 5.12px;
+            margin-left: 6%;
+        }
+        .ndinnerdiv1img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .ndinnerdiv1para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            margin-top: -40px;
+
+        }
+        .ndinnerdiv2{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 39px;
+            flex-direction: column;
+            margin-left: -2%;
+            border-radius: 5.12px;
+            margin-left: -2%;
+        }
+        .ndinnerdiv2img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .ndinnerdiv2para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+
+        }
+        .ndinnerdiv3{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 39px;
+            flex-direction: column;
+            margin-left: -2%;
+            border-radius: 5.12px;
+            margin-left: -2%;
+        }
+        .ndinnerdiv3img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .ndinnerdiv3para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+
+        }
+        .ndinnerdiv4{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 39px;
+            flex-direction: column;
+            margin-left: -2%;
+            border-radius: 5.12px;
+            margin-left: -2%;
+        }
+        .ndinnerdiv4img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .ndinnerdiv4para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+
+        }
+        .ndinnerdiv5{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 39px;
+            flex-direction: column;
+            margin-left: -2%;
+            border-radius: 5.12px;
+            margin-left: -2%;
+        }
+        .ndinnerdiv5img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .ndinnerdiv5para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+
+        }
+        .ndinnerdiv6{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 39px;
+            flex-direction: column;
+            margin-left: -2%;
+            border-radius: 5.12px;
+            margin-left: -2%;
+        }
+        .ndinnerdiv6img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .ndinnerdiv6para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+
+        }
+        .ndinnerdiv7{
+            width: 12.5%;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 1%;
+            font-size: 17px;
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 10px 5px 30px 39px;
+            flex-direction: column;
+            margin-left: -2%;
+            border-radius: 5.12px;
+            margin-left: -2%;
+        }
+        .ndinnerdiv7img{
+            justify-content: center;
+            height: 33%; 
+            width: 33%;
+            display: inline;
+            margin-bottom: 8%;
+        }
+        .ndinnerdiv7para{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+
+        }
+        .ndcolm{
+            height: 70%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+        }
+        .dwnhead{
+            font-family: Inter,sans-serif;
+            font-weight: bolder;
+            margin-top: 9%;
+            margin-left: 10%;
+            font-size: 42px;
+            margin-bottom: 2%;
+        }
+        .dwndiv{
+            background-color: transparent;
+            height: 82%;
+            width: 87%;
+            margin: auto;
+            box-shadow: lightgray 0px 0px 200px;
+            display: flex;
+        }
+        .dwndivpart1{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+        }
+        .pppp{
+            height: 70%;
+            width: 100%;
+            background-color: darkslategrey;
+            display: flex;
+            flex-direction: row;
+            background-size: contain;
+        }
+        .dwndivpart2{
+            height: 100%;
+            width: 50%;
+        }
+        .dwndivpart2img{
+            height: 95%;
+            background-size: 100%;
+            margin-right: 50px;
+        }
+        .dwndivpart1img{
+            height: 10%;
+            background-size: 50%;
+            margin-left: 30px;
+            display: inline-block;
+            margin-top: 4px;
+            font-family: Inter, sans-serif;
+            height: 65px;
+        }
+        .dwndivpart1sen1{
+            font-family: Inter,sans-serif;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        #ddp1stp{
+            background-color: lightgrey;
+            display: inline-block;
+            height: 158px;
+        }
+        #p{
+            font-size: 20px;
+            display: inline;
+            font-family: Inter ,sans-serif;
+            color: black;
+            margin-bottom: 70%;
+        }
+        .ppp{
+            height: 100%;
+            width: 50%;
+            background-color: grey;
+            display: flex;
+        }
+        #paytmwallet{
+            font-family: Inter, sans-serif;
+            color: black;
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: block;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 19px;
+            margin-left: 15px;
+        }
+        #dwndivpart11{
+            position: relative;
+            top: 20px;
+            left: 20px;
+            background-color: transparent;
+            height: 83px;
+            /*width: 150px; */
+            display: flex;
+            margin-top: 40px;
+            margin-left: 26px;
+        }
+        #wallet{
+            font-family: Inter, sans-serif;
+            color: black;
+            font-weight: 600;
+            margin-top: -10px;
+            margin-left: 15px;
+        }
+        .andrkahissa{
+            display: flex;
+            flex-direction: column;
+        }
+        #the-p{
+            font-family: Inter, sans-serif;
+            font-weight: bolder;
+            font-size: 36px;
+            margin-top: 200px;
+            margin-left: -100px;
+        }
+        #the-2p{
+            font-family: Inter, sans-serif;
+            font-weight: bolder;
+            font-size: 36px;
+            margin-left: -325px;
+            margin-top: 245px;
+        }
+        #the-3p{
+            font-family: Inter, sans-serif;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            word-spacing: 0.7px;
+            margin-top: 320px;
+            margin-left: -373px;
+        }
+        #the-4p{
+            font-family: Inter, sans-serif;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            word-spacing: 0.7px;
+            margin-top: 339px;
+            margin-left: -403px;
+            font-size: 16.1px;
+        }
+        .andiv{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            font-family: Inter, sans-serif;
+            border-radius: 50px;
+            height: 14px;
+            padding: 14px;
+            margin-top: 390px;
+            margin-left: -410px;
+            font-size: 13px;
+            width: 35%;
+            cursor: pointer;
+        }
+        #dwntwo2div{
+            width: 50%;
+            height: 100%;
+            /*background-image: url(https://assetscdn1.paytm.com/images/catalog/view_item/728702/1626342071104.png);*/
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #dwntwo1div{
+            width: 50%;
+            height: 100%;
+        }
+        .dwntwo{
+            height: 85%;
+            width: 87%;
+            box-shadow: lightgrey 0px 0px 200px;
+            display: flex;
+            justify-content: center;
+            margin: 100px auto;
+        }
+        #UPI{
+            font-family: Inter, sans-serif;
+            color: black;
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: block;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 19px;
+            margin-left: 15px;
+        }
+        .andrkibat{
+            display: flex;
+            margin-left: -189px;
+            margin-top: 75px;
+        }
+        #theimg{
+            background-size: 50%;
+            height: 90%;
+            transform: translate(220px);
+            position: relative;
+            bottom: 120px;
+        }
+        #the-ndp{
+            font-family: Inter, sans-serif;
+            font-weight: bolder;
+            font-size: 36px;
+            margin-top: 200px;
+            margin-left: -100px;
+    </style>
+</head>
+<body>
+	<div class="heading">
+	    <div class="image">
+	    </div>
+	    <div class="pfc">
+            Paytm for consumer
+        </div>
+        <div class="pfb">
+        Paytm for buisness
+        </div>
+        <div class="ir">
+        Investor relations
+        </div>
+        <div class="c">
+        Company	
+        </div>
+        <div class="carrer">
+        Carrer
+        </div>
+        <div class="signin">
+            <div class="log">
+             Sign In
+            </div>
+        </div>
+	</div>
+	<div class="pf">
+	No Wallet KYC Required😊to pay UPI on payment.
+	</div>
+	<div class="middlemain">
+	    <div class="middle">
+	        <div class="img">
+	        </div>
+	<p class="text">
+	India's Most Loved
+        <p class="text1">
+        Payments App
+        </p>
+	</p>
+	<p class="text2">
+		<p class="text3">
+		Recharge & pay bills, book flights & movie tickets, open a 
+		</p>
+		<p class="text3">
+		savings account, invest in stocks & mutual funds, and do a
+		</p>
+		<p class="text3">
+		lot more.
+	    </p>
+	</p>
+	    <div class="downloadpaytmapp">
+	    	<p class="sentence1">
+	    	Download Paytm App
+	        </p>
+	    	<div class="apple">
+	    	</div>
+	    	<div class="playstore">	    		
+	    	</div>
+	    </div>
+    </div>
+        <div class="photo">
+        </div>
+    </div>
+    <div class="stcolumn">
+    	<h1 class="head1">Recharge and Pay on Paytm</h1>
+    	<br>
+    <div class="stcolm">      
+    <div class="innerdiv1">
+        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png" alt="Recharge" class="div1img">
+        <br>
+        <br>
+        <p class="div1para1st">
+         Recharge	
+        </p>
+        <p class="div1para">
+        Prepaid<br>Mobile >
+        </p>
+    </div>	
+    <div class="innerdiv2">
+    	<img src="https://assetscdn1.paytm.com/images/catalog/view_item/733300/1626778824903.png" class="div2img">
+    	  <br>
+        <br>
+        <p class="div2para1st">
+        Pay	
+        </p>
+        <p class="div2para">
+        Rent<br>Payment >
+        </p>
+    </div>
+    <div class="innerdiv3">
+    	<img src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png" class="div3img">
+    	  <br>
+        <br>
+        <p class="div3para1st">
+        Pay	
+        </p>
+        <p class="div3para">
+        Electricity<br>Bills >
+        </p>
+    </div>	
+    <div class="innerdiv4">
+    	<img src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png" class="div4img">
+    	  <br>
+        <br>
+        <p class="div4para1st">
+        Recharge
+        </p>
+        <p class="div4para">
+        DTH<br>Connection >
+        </p>
+    </div>	
+    <div class="innerdiv5">
+    	<img src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png" class="div5img">
+    	  <br>
+        <br>
+        <p class="div5para1st">
+        Book	
+        </p>
+        <p class="div5para">
+        Gas<br>Cylinder >
+        </p>
+    </div>	
+    <div class="innerdiv6">
+    	<img src="https://assetscdn1.paytm.com/images/catalog/view_item/733304/1627454209116.png" class="div6img">
+    	  <br>
+        <br>
+        <p class="div6para1st">
+        Pay	
+        </p>
+        <p class="div6para">
+        Credit<br>Card Bills >
+        </p>
+    </div>	
+    <div class="innerdiv7">
+    	<img src="https://assetscdn1.paytm.com/images/catalog/view_item/733304/1627454209116.png" class="div7img">
+    	  <br>
+        <br>
+        <p class="div7para1st">
+        All
+        </p>
+        <p class="div7para">
+        Payment<br>services >
+        </p>
+    </div>	
+    </div>
+    </div>
+    <div class="ndcolumn">
+    	<h1 class="head2">Book & Buy on Paytm.</h1>
+    	<br>
+    	<div class="ndcolm">
+    	<div class="ndinnerdiv1">
+    	<img src="https://assetscdn1.paytm.com/images/catalog/view_item/733295/1626259710574.png" class="ndinnerdiv1img">
+    	<br>
+        <br>
+        <p class="ndinnerdiv1para">
+        Movie<br>Tickets >
+        </p>
+    	</div>
+    	<div class="ndinnerdiv2">
+    		<img src="https://assetscdn1.paytm.com/images/catalog/view_item/733296/1626259884425.png" class="ndinnerdiv2img">
+    		<p class="ndinnerdiv2para">
+        Flight<br>Tickets >
+            </p>
+    	</div>
+    	<div class="ndinnerdiv3">
+    		<img src="https://assetscdn1.paytm.com/images/catalog/view_item/729996/1626260477699.png"class="ndinnerdiv3img">
+            <p class="ndinnerdiv3para">
+    	Bus<br>Tickets >
+            </p>
+    	</div>
+    	<div class="ndinnerdiv4">
+    		<img src="https://assetscdn1.paytm.com/images/catalog/view_item/729997/1626260495975.png"class="ndinnerdiv4img">
+            <p class="ndinnerdiv4para">
+    		Train<br>Tickets >
+            </p>
+    	</div>
+    	<div class="ndinnerdiv5">
+    		<img src="https://assetscdn1.paytm.com/images/catalog/view_item/729998/1666185237748.png"class="ndinnerdiv5img">
+            <p class="ndinnerdiv5para">
+    		Buy<br>Insurance >
+            </p>
+    	</div>
+    	<div class="ndinnerdiv6">
+    		<img src="https://assetscdn1.paytm.com/images/catalog/view_item/729999/1626259968563.png"class="ndinnerdiv6img">
+            <p class="ndinnerdiv6para">
+    		International<br>Flights >
+            </p>
+    	</div>
+    	<div class="ndinnerdiv7">
+    		<img src="https://assetscdn1.paytm.com/images/catalog/view_item/730001/1626450848003.png" class="ndinnerdiv7img">
+            <p class="ndinnerdiv7para">
+    		Invest<br>in Stocks >
+            </p>
+    	</div>
+    </div>
+    </div>
+    <h1 class="dwnhead">
+    Paytm Payment Instruments
+    </h1>
+    <div class="dwndiv">
+    	<div class="dwndivpart1">
+            <div id="dwndivpart11">
+    		<img src="https://assetscdn1.paytm.com/images/catalog/view/307185/1617861564011.png" class="dwndivpart1img">
+            <!-- andr ka hissa start -->
+            <div class="andrkahissa">
+            <label id="paytmwallet">
+            Paytm
+            </label>
+            <label id="wallet">
+            wallet
+            </label>
+        </div>
+        <!-- andr ka hissa end -->
+        </div>
+        <br>
+        <!-- 1 andr ki baat start -->
+        <label id="the-p">The Fastest Way to</label>
+        <!-- 1 andr ki baat end -->
+        <!-- 2 andr ki baat start -->
+        <label id="the-2p">Pay In-store & Online.</label>
+        <!-- 2 andr ki baat end -->
+        <!-- andr ki baat niche 1 start -->
+        <label id="the-3p">Load up your Paytm Wallet for free and make payments</label>
+        <!-- andr ki baat niche 1 end -->
+        <!-- andr ki baat niche 2 start -->
+        <label id="the-4p">in a jiffy at over 21 million stores, websites and apps.</label>
+        <!-- andr ki baat niche 2 end -->
+        <!-- andr ka logo start -->
+        <div class="andiv">Download the App</div>
+        <!-- andr ka logo end -->
+        </div>
+    	<div class="dwndivpart2">
+    		<img src="https://assetscdn1.paytm.com/images/catalog/view_item/728701/1618577020961.png" class="dwndivpart2img">
+    	</div>
+    </div>
+    <div class="dwntwo">
+        <div id="dwntwo1div">
+            <div id="dwndivpart12">
+            <!-- andr ke hisse ki ek baat start -->
+            <div class="andrkibat">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/307186/1615957674521.png" class="dwndivpart1img">
+            <!-- andr ka hissa start -->
+            <div class="andrkahissa">
+            <label id="UPI">
+            UPI Money
+            </label>
+            <label id="wallet">
+            Transfer
+            </label>
+        </div>
+                <!-- 1 andr ki baat start -->
+        <label id="the-p">Pay anyone directly</label>
+        <!-- 1 andr ki baat end -->
+        <!-- 2 andr ki baat start -->
+        <label id="the-2p">Pay anyone directly</label>
+        <!-- 2 andr ki baat end -->
+        <label id="the-2p">account.</label>
+        <!-- andr ki baat niche 1 start -->
+        <label id="the-3p">Pay anyone, everywhere. Make contactless & secure</label>
+        <!-- andr ki baat niche 1 end -->
+        <!-- andr ki baat niche 2 start -->
+        <label id="the-4p">payments in-stores or online using Paytm Wallet or</label>
+        <!-- andr ki baat niche 2 end -->
+        <label id="the-4p">Directly from your Bank Account. Plus, send & receive</label>
+        <label id="the-4p">money from anyone.</label>
+        <!--  andr ka logo start -->
+        <!-- <div class="andiv">Download the App</div> -->
+        <!-- andr ka logo end -->
+        </div>
+    </div>
+        <!-- andr ke hisse ki ek baat end -->
+        </div>
+        <div id="dwntwo2div">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/728702/1626342071104.png" id="theimg">
+        </div>
+    </div>
+</body>
+</html>
